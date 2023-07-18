@@ -1,0 +1,16 @@
+{
+  "name": "logger",
+  "devDependencies": {
+    "typescript": "^5.1.6"
+  },
+  "exports": {
+    "types": "./index.ts",
+    "development": "./index.ts",
+    "default": "./build/index.js"
+  },
+  "private": true,
+  "scripts": {
+    "build": "tsc"
+  },
+  "type": "module"
+}
