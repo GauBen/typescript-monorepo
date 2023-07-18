@@ -4,7 +4,7 @@ import log from "logger";
 const app = express();
 
 app.use((req, res) => {
-  log("Received request for URL: " + req.url);
+  log("Received request for URL:", req.url);
   res.end("Hello World!");
 });
 

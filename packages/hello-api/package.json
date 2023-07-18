@@ -12,7 +12,7 @@
   "private": true,
   "scripts": {
     "build": "tsc",
-    "dev": "tsx watch --conditions=development index.ts",
+    "dev": "tsx --watch --conditions=development index.ts",
     "start": "node build/index.js"
   },
   "type": "module"
